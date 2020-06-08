@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top">
+
+        <item
+            android:id="@+id/nav_daftar_belajar"
+            android:icon="@drawable/ic_star_blue"
+            android:title="Daftar KBAO" />
+
+        <item
+            android:id="@+id/nav_web_kbao"
+            android:icon="@drawable/ic_wordpress"
+            android:title="Website KBAO" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_tentang_kbao"
+            android:icon="@drawable/ic_info"
+            android:title="Tentang KBAO" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>
