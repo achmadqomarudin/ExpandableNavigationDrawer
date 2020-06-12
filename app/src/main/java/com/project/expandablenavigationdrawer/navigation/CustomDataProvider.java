@@ -26,12 +26,12 @@ public class CustomDataProvider {
         /**
          * ITEM = WITHOUT CHILD
          * GROUP_ITEM = WITH CHILD
-        * */
-        rootMenu.add(new Item("Home", R.drawable.ic_star_blue));
-        rootMenu.add(new GroupItem("Category", R.drawable.ic_wordpress));
-        rootMenu.add(new GroupItem("Assignments", R.drawable.ic_info));
-        rootMenu.add(new Item("Help", R.drawable.ic_more_nav));
-        rootMenu.add(new Item("AboutUs", R.drawable.ic_logout));
+         **/
+        rootMenu.add(new Item("Home", R.drawable.ic_home));
+        rootMenu.add(new GroupItem("Category", R.drawable.ic_category));
+        rootMenu.add(new GroupItem("Assignments", R.drawable.ic_assignment));
+        rootMenu.add(new Item("AboutUs", R.drawable.ic_info));
+        rootMenu.add(new Item("Exit", R.drawable.ic_logout));
         return rootMenu;
     }
 
@@ -49,9 +49,9 @@ public class CustomDataProvider {
             return null;
         }
 
-        /*
-        * HANYA UNTUK GROUP-ITEM
-        * */
+        /**
+        * ONLY FOR GROUP-ITEM
+        **/
         switch (level) {
             case LEVEL_1:
                 switch (menuItem.toUpperCase()) {
@@ -88,7 +88,6 @@ public class CustomDataProvider {
         list.add(new Item("Assignment1"));
         list.add(new Item("Assignment2"));
         list.add(new Item("Assignment3"));
-        list.add(new Item("Assignment4"));
         return list;
     }
 

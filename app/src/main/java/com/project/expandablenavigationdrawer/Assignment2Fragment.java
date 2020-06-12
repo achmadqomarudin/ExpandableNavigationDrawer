@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
  */
 public class Assignment2Fragment extends Fragment {
 
-    String title = "Assignment1";
+    String title = "Assignment2";
 
     public Assignment2Fragment() {
         // Required empty public constructor
